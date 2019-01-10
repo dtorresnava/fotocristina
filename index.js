@@ -1,6 +1,17 @@
 
-const fs = require('fs');
+const http = require('http');
 
+/* Escribir en fichero
+fs.readFile('./texto.txt', function(err, data){
+    if(err){
+        console.log(err);
+    }else{
+        console.log(data.toString());
+    }
+});
+*/
+
+/* Escribir en fichero
 fs.writeFile('./texto.txt', 'línea uno', function(err){
     if(err){
         console.log(err);
@@ -8,6 +19,9 @@ fs.writeFile('./texto.txt', 'línea uno', function(err){
         console.log('Archivo creado');
     }
 });
+*/
+
+
 /*
 const os = require('os');
 
